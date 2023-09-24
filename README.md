@@ -1,9 +1,7 @@
 # Coding challenge with Spring Boot
 
-<details>
-  <summary>
-<h2>Challenge requirements</h2>
-  </summary>
+## Challenge requirements
+
 Develop a REST API in Spring Boot using Java 11 or newer.
   
 It has to expose a service which takes two numbers as parameters and returns the sum of the two numbers with an added percentage which needs to be retrieved from an external service.
@@ -25,14 +23,9 @@ Have in mind the following considerations:
 - The Postgres DB must run in a Docker container as well. It's recommended to use Docker Compose.
 - A Postman collection must be included to test the API.
 - The app's code must be stored in a public repository along with the instructions for deploying and consuming the API.
-</details>
 
-<details>
-  <summary>
-<h2>Instructions</h2>
-  </summary>
-1. Clone repository. <br>
-2. Run command `mvn clean package -DskipTests` <br>
-3. Run command `docker-compose up` <br>
-4. Test API using provided Postman collection. <br>
-</details>
+## Instructions
+- Clone repository.
+- Run command `mvn clean package -DskipTests`
+- Run command `docker-compose up`
+- Test API using provided Postman collection.
