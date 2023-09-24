@@ -1,0 +1,5 @@
+com\alejo\challenge\service\QuoteServiceTest.class
+com\alejo\challenge\web\QuoteControllerTest.class
+com\alejo\challenge\service\InterestServiceTest.class
+com\alejo\challenge\ChallengeApplicationTests.class
+com\alejo\challenge\service\RetryableInterestServiceTest.class
