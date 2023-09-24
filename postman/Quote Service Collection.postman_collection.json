@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "2b830d5f-96a4-4939-98ab-9c86c6f4660d",
+		"name": "Quote Service Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29984372"
+	},
+	"item": [
+		{
+			"name": "AdjustedQuotes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8082/api/quotes/adjusted?value1=10&value2=10&size=10&page=0",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"quotes",
+						"adjusted"
+					],
+					"query": [
+						{
+							"key": "value1",
+							"value": "10"
+						},
+						{
+							"key": "value2",
+							"value": "10"
+						},
+						{
+							"key": "size",
+							"value": "10"
+						},
+						{
+							"key": "page",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
